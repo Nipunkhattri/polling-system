@@ -103,7 +103,6 @@ const StudentDashboard = () => {
 
   return (
     <div className="flex h-screen bg-gray-50">
-      {/* Main Poll Area */}
       {
         !pollResults ?
           <div className="flex-1 flex flex-col items-center justify-center p-8">

@@ -6,6 +6,6 @@ if (!userId) {
   localStorage.setItem("userId", userId);
 }
 
-export const socket = io("http://localhost:5000", {
+export const socket = io("https://polling-system-production.up.railway.app/", {
   query: { userId },
 });
